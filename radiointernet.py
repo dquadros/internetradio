@@ -67,7 +67,7 @@ def command(cmd):
     shlex.split(cmd), stderr=subprocess.STDOUT, text=True
   )
   result = result.rstrip().split('\n')
-  print (cmd, '-->', result)
+  #print (cmd, '-->', result)
   return result
 
 # Trata botão Play/Stop

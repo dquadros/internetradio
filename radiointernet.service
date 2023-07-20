@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/home/pi/radiointernet.py
+ExecStart=/home/pi/radiointernet/radiointernet.py
 User=pi
 WorkingDirectory=/home/pi/radiointernet
 Restart=on-failure
