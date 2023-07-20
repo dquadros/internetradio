@@ -135,11 +135,11 @@ def atlStatus():
   lcd.displayWrite(0, 0, nome)
 
 # Define os botoes
-bPlay = Botao(24)
+bPlay = Botao(17)
 bNextStation = Botao(22)
-bPrevStation = Botao(23)
-bNextVol = Botao(17)
-bPrevVol = Botao(27)
+bPrevStation = Botao(27)
+bNextVol = Botao(24)
+bPrevVol = Botao(23)
 
 # Começa a tocar a primeira estacao
 doNextVol()
