@@ -1,0 +1,3 @@
+http://stream.radioparadise.com/rock-128
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8
+https://icecast.walmradio.com:8443/jazz

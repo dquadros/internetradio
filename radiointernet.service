@@ -1,0 +1,13 @@
+[Unit]
+Description=Tocador de radio internet
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/radiointernet.py
+User=pi
+WorkingDirectory=/home/pi/radiointernet
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
